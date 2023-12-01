@@ -1,0 +1,67 @@
+:root{
+    --veryDarkBlue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+}*
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: lightgray;
+
+}
+.perfume{
+    background:;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 90%;
+    margin: auto;
+    margin-top:100px;
+}
+.perfume .img img{
+    width: 290px;
+    height: auto;
+    border-radius :10px;
+
+}
+.perfume .text {
+    padding: 19px;
+    font-weight: bold;
+}
+/* .t{
+    padding: 10px;
+} */
+.perfume .text .t {
+    color: green;
+    display: flex;
+    margin-top: 20px;
+    
+}
+.p{
+    padding-left: 80px;
+}
+button{
+    width: 200px;
+    height: 40PX;
+    background-color: green;
+    color: white;
+    font-size: large;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+    
+}
+.text,p,h5{
+    color: lightslategrey;
+}
+.text,h1{
+ color: black;
+}
